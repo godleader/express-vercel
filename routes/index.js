@@ -10,6 +10,6 @@ r.use('/demo', demo);
 r.use('/campaigns', campaigns);
 r.use('/user', user);
 
-r.get('/', (req, res) => res.json(new SuccessResponseObject('ads api')));
+r.get('/', (req, res) => res.json(new SuccessResponseObject('express vercel boiler plate')));
 
 module.exports = r;
