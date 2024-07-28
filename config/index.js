@@ -2,10 +2,9 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    await mongoose.connect('mongodb://localhost:27017/your_db_name', {
+    await mongoose.connect('mongodb+srv://sinolim9:GSgW1BUbMsMiOWnT@cluster0.bkbwpfb.mongodb.net/adsgoogle', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      useCreateIndex: true,
     });
     console.log('MongoDB connected...');
   } catch (err) {

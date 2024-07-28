@@ -17,3 +17,4 @@ exports.ErrorResponseObject = class ErrorResponseObject extends BaseResponseObje
     super(false, message, data);
   }
 };
+
